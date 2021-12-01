@@ -5,7 +5,6 @@
       <el-menu-item  @click="first"> <img src="../../assets/images/taoli.png" alt="" class="logo"></el-menu-item>
       <el-menu-item index="2" @click="first">首页</el-menu-item>
       <el-menu-item index="3" @click="curriculum">我的课程</el-menu-item>
-      <el-menu-item index="4" @click="lookwork">我的作业</el-menu-item>
       <el-menu-item index="5" @click="examination">我的考试</el-menu-item>
       <el-menu-item index="6" @click="communication">我的问答</el-menu-item>
       
@@ -61,9 +60,6 @@ export default {
   methods:{
     first(){    //首页
       this.$router.push('/')
-    },
-    lookwork(){     //我的作业
-      this.$router.push('/work')
     },
     curriculum(){   //我的课程
       this.$router.push('/curriculum')
