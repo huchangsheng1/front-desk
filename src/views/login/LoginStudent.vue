@@ -87,7 +87,7 @@ export default {
                         });
 
                         localStorage.removeItem('User-Token');
-                        window.location.href =  'http://localhost:8082/login#/login'
+                        window.location.href =  'http://msn.hcs998.top/login#/login'
                         
                     }
 
