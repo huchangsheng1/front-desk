@@ -2,7 +2,7 @@ import axios from 'axios'
 import router from '../router'
 
 axios.defaults.timeout = 3000000;
-axios.defaults.baseURL = '/api'
+axios.defaults.baseURL = 'http://huangxu.xiuchao.top'
 
 axios.interceptors.request.use(
     config => {
